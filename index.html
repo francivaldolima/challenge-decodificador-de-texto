@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/71fd24a7e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <title>Decodificador de texto</title>
+  </head>
+  <body>
+    <header class="container__max">
+      <div class="container__header">
+        <h1><img src="./img/Vector.png" alt="" /></h1>
+      </div>
+    </header>
+
+    <main class="container__max">
+      <section class="container">
+        <div class="container__input">
+          <input
+            class="input-texto" 
+            type="text"
+            name="palavra"
+            id="palavra"
+            class="caixa__input"
+            placeholder="digite seu texto"
+           autofocus
+          />
+        </div>
+        
+
+        <div class="container__text">
+          <textarea id="area" name="area" class="resultado" rows="5" cols="60"> </textarea>
+          <div id="foto">
+            <img src="./img/resultado-bg.png" alt="" class="foto-resultado">
+          </div>
+          <div  id="myDIV" class="container__copia">
+            <button id="copy"  class="copia">Copy</button>
+          </div>
+        </div>
+      </section>
+
+      <p class="palavra">
+        <i class="fa-sharp fa-solid fa-circle-info"></i>
+        Apenas letras minúsculas e sem acento
+      </p>
+      <section class="container__btn">
+        <button type="button" class="btn-codificar"  id="btn-criptografar" >Criptografar</button>
+        <button type="button" class="btn-decodificar" id="btn-descriptografar" >
+          Descriptografar
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <p>&copy; Challenge ONE + Alura - Decodificador de texto - 2022</p>
+        <p>Desenvolvido por: Francivaldo Lima</p>
+        <ul class="rede">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/francivaldolima"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/francivaldolima" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
+</html>
