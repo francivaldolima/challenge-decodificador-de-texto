@@ -1,0 +1,146 @@
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__input>input {
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 10px 20px;
+        font-size: 25px;
+    }
+
+    .container__text {
+        width: 280px;
+        height: 480px;
+        margin: 10px 60px;
+    }
+
+    textarea {
+        width: 260px;
+        margin: 0px 5px;
+    }
+
+    #foto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .palavra {
+        margin: 10px 96px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        margin: 30px 60px;
+    }
+
+    #btn-criptografar {
+        padding: 20px;
+        margin: 0px;
+    }
+
+    #btn-descriptografar {
+        padding: 20px;
+        margin: 0px;
+    }
+
+    footer {
+        margin: 10px 0px;
+        display: flex;
+        justify-content: center;
+        width: 400px;
+    }
+
+    footer section p {
+        font-size: 10px;
+    }
+
+    section .rede {
+        margin: 5px 0px;
+        font-size: 10px;
+    }
+
+}
+
+/*// Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 90px;
+        justify-content: center;
+    }
+
+
+    textarea {
+        margin: 20px 0px;
+    }
+
+    .container__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__input {
+        width: 400px;
+    }
+
+    .container__input>input {
+        width: 400px;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    footer {
+        margin: 10px 0px;
+    }
+
+
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 90px;
+        justify-content: center;
+    }
+
+
+    textarea {
+        margin: 20px 0px;
+    }
+
+    .container__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__input {
+        width: 400px;
+    }
+
+    .container__input>input {
+        width: 400px;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    footer {
+        margin: 10px 0px;
+    }
+}

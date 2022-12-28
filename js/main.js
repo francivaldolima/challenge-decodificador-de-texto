@@ -50,10 +50,18 @@ function copy() {
   let copyText = document.querySelector("#area");
   copyText.select();
   document.execCommand("copy");
+  aparecerImagem();
+  document.getElementById("myDIV").style.visibility = "hidden";
 }
 
 function removerImagem() {
   document.getElementById("foto").style.display = "none";
+  document.getElementById("area").style.display = "block";
+}
+
+function aparecerImagem() {
+  document.getElementById("foto").style.display = "block";
+  document.getElementById("area").style.display = "none";
 }
 
 function aparecerButton() {
